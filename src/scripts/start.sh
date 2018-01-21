@@ -3,7 +3,7 @@
 echo "Starting Ethereum tools geth and mist..."
 
 #To load up setup environment variables
-source env.sh
+source src/scripts/env.sh
 
 sleep 2
 printf "\n\n.................................................................................."

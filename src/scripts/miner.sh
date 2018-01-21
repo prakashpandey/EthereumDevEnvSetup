@@ -4,7 +4,7 @@
 #and you should create atleat one account in mist
 
 #To load up setup environment variables
-source env.sh
+source src/scripts/env.sh
 
 #Start miner
 printf "\n\nStarting miner console. Please wait..."

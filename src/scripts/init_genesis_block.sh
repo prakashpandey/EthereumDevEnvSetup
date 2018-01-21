@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #To load up setup environment variables
-source env.sh
+source src/scripts/env.sh
 
 printf "\n\nInitializing genesis block..."
 PROJECT_HOME=$ETHEREUM_HOME/Project

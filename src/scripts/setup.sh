@@ -13,7 +13,7 @@ echo "Setting up developement environment for Ethereum developement."
 echo "\nNote this script is for Debian 64 bit operating systems."
 
 #To load up setup environment variables
-source env.sh
+source src/scripts/env.sh
 
 if [ ! -d "$ETHEREUM_HOME" ]; then
  mkdir $ETHEREUM_HOME
