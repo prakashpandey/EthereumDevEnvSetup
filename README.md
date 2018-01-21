@@ -32,6 +32,7 @@ All these tools are required for the developement for Ethereum Solidity based dA
 ### Run geth and mist
 - cd EthereumDevEnvSetup
 - src/scripts/start.sh
+
 This will create `process.txt` at `EthereumDevEnvSetup/src/tools` which contains pid's of `geth` and `mist` process.
 Please create an account in mist before you start miner.
 
