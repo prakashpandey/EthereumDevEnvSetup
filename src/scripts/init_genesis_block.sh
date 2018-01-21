@@ -13,7 +13,7 @@ if [ ! -d $PROJECT_HOME ]; then
  printf "\nCopied genesis file from $ETHEREUM_HOME to $PROJECT_HOME."
 fi
 
-printf "\nDo you want to initialize genesis file. y/n"
+printf "\nDo you want to initialize genesis file. y/n. \n"
 read init_genesis_usr_input
 if [ "$init_genesis_usr_input" == "y" ]; then
    echo "Initializing genesis block"
