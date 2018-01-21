@@ -11,9 +11,10 @@
 
 echo "Setting up developement environment for Ethereum developement."
 echo "\nNote this script is for Debian 64 bit operating systems."
-cd ~
 
-ETHEREUM_HOME=~/BlockChain/AutomatedScripts/Ethereum
+#To load up setup environment variables
+source env.sh
+
 if [ ! -d "$ETHEREUM_HOME" ]; then
  mkdir $ETHEREUM_HOME
  echo "\nCreated directory Ethereum in user home directory."
@@ -26,8 +27,6 @@ echo "\n\nDownloading geth...\n"
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.7.3-4bb3c89d.tar.gz
 tar -xvf geth-linux-amd64-1.7.3-4bb3c89d.tar.gz
 mv geth-linux-amd64-1.7.3-4bb3c89d geth
-GETH=$ETHEREUM_HOME/geth
-export $GETH
 echo "\nGeth is installed at $GETH"
 
 #Wallet setup
