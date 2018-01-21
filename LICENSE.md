@@ -1,6 +1,6 @@
-#EthereumDevEnvSetup Licensing
+# EthereumDevEnvSetup Licensing
 
-#####TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+##### TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
  - Definitions : 
  
