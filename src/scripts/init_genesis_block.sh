@@ -9,7 +9,7 @@ if [ ! -d $PROJECT_HOME ]; then
  mkdir $PROJECT_HOME
  mkdir $PROJECT_HOME/chaindata
  printf "\nCreated directory $PROJECT_HOME/chaindata which will contain geth and wallet data."
- cp $ETHEREUM_HOME/genesis.json $PROJECT_HOME/genesis.json
+ cp ../resources/genesis.json $PROJECT_HOME/genesis.json
  printf "\nCopied genesis file from $ETHEREUM_HOME to $PROJECT_HOME."
 fi
 
