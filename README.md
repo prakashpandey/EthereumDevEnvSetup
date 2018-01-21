@@ -32,7 +32,13 @@ All these tools are required for the developement for Ethereum Solidity based dA
 ### Run geth and mist
 - cd EthereumDevEnvSetup
 - src/scripts/start.sh
-- Open new terminal, `cd EthereumDevEnvSetup` and `src/scripts/miner.sh`
+This will create `process.txt` at `EthereumDevEnvSetup/src/tools` which contains pid's of `geth` and `mist` process.
+Please create an account in mist before you start miner.
+
+### Run miner
+- Open new terminal, 
+- `cd EthereumDevEnvSetup` 
+- `src/scripts/miner.sh`
 
 ### License
 You can use this software for commercial as well as non-commercial purpose/purposes, the way you want and without conditions of any kind.
