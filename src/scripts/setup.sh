@@ -9,8 +9,8 @@
 #It also exports $GETH and $ETHEREUM_WALLET environment variables
 ################################################################################################################################################
 
-echo "Setting up developement environment for Ethereum developement."
-echo "\nNote this script is for Debian 64 bit operating systems."
+printf "Setting up developement environment for Ethereum developement."
+printf "\nNote this script is for Debian 64 bit operating systems."
 
 #To load up setup environment variables
 source src/scripts/env.sh
@@ -23,14 +23,14 @@ fi
 cd $ETHEREUM_HOME
 
 #geth setup
-echo "\n\nDownloading geth...\n"
+printf "\n\nDownloading geth...\n"
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.7.3-4bb3c89d.tar.gz
 tar -xvf geth-linux-amd64-1.7.3-4bb3c89d.tar.gz
 mv geth-linux-amd64-1.7.3-4bb3c89d geth
-echo "\nGeth is installed at $GETH"
+printf "\nGeth is installed at $GETH"
 
 #Wallet setup
-echo "\n\nDownloading ethereum-wallet...\n"
+printf "\n\nDownloading ethereum-wallet...\n"
 wget https://github.com/ethereum/mist/releases/download/v0.9.3/Ethereum-Wallet-linux64-0-9-3.zip
 unzip Ethereum-Wallet-linux64-0-9-3.zip -d Ethereum-Wallet
-echo "\nEthereum wallet is installed at $ETHEREUM_WALLET_HOME"
+printf "\nEthereum wallet is installed at $ETHEREUM_WALLET_HOME"
