@@ -25,14 +25,14 @@ All these tools are required for the developement for Ethereum Solidity based dA
 - git clone `https://github.com/prakashpandey/EthereumDevEnvSetup.git`
 - cd EthereumDevEnvSetup
 - chmod 777 src/scripts/*
-- sh EthereumDevEnvSetup/src/scripts/env.sh
-- sh EthereumDevEnvSetup/src/scripts/setup.sh
-- sh EthereumDevEnvSetup/src/scripts/init_genesis_block.sh.sh
+- sh src/scripts/env.sh
+- sh src/scripts/setup.sh
+- sh src/scripts/init_genesis_block.sh.sh
 
 ### Run geth and mist
 - cd EthereumDevEnvSetup
-- sh EthereumDevEnvSetup/src/scripts/start.sh
-- Open new terminal and `sh EthereumDevEnvSetup/src/scripts/miner.sh`
+- sh src/scripts/start.sh
+- Open new terminal, `cd EthereumDevEnvSetup` and `sh src/scripts/miner.sh`
 
 ### License
 You can use this software for commercial as well as non-commercial purpose/purposes, the way you want and without conditions of any kind.
