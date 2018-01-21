@@ -22,7 +22,7 @@ printf "\n\n"
 
 #Start Ethereum wallet in mist mode
 printf "Starting ethereum wallet in mist mode considering ipc path at $IPC_PATH."
-$ETHEREUM_WALLET/ethereumwallet --mode mist &
+$ETHEREUM_WALLET_HOME/ethereumwallet --mode mist &
 MIST_PID=$!
 printf "\nStarted mist (pid : $MIST_PID)"
 #Append process id to file process_id
