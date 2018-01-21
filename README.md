@@ -27,7 +27,7 @@ All these tools are required for the developement for Ethereum Solidity based dA
 - chmod 777 src/scripts/*
 - src/scripts/env.sh
 - src/scripts/setup.sh
-- src/scripts/init_genesis_block.sh.sh
+- src/scripts/init_genesis_block.sh
 
 ### Run geth and mist
 - cd EthereumDevEnvSetup
@@ -43,5 +43,5 @@ Please visit [LICENSE.md](LICENSE.md) for more details.
 Please feel free to contribute to this project.
 
 ### Contact author
-- E-Mail : pcpcndey@mail.com.
-- Twitter : [Prakash Pandey](twitter.com/pandaypc)
+- E-Mail : pcpandey@mail.com.
+- Twitter : [Prakash Pandey](www.twitter.com/pandaypc)
