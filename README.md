@@ -50,4 +50,4 @@ Please feel free to contribute to this project.
 
 ### Contact author
 - E-Mail : pcpandey@mail.com.
-- Twitter : [Prakash Pandey](www.twitter.com/pandaypc)
+- Twitter : [Prakash Pandey](http://www.twitter.com/pandaypc)
