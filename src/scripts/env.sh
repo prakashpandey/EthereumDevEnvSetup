@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 printf "\n\nSetting up environments variables...\n"
-export ETHEREUM_HOME=loc=$(pwd)/src/tools
+export ETHEREUM_HOME=$(pwd)/src/tools
 cd $ETHEREUM_HOME
 
 #Geth
