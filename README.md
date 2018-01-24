@@ -41,6 +41,11 @@ Please create an account in mist before you start miner.
 - `cd EthereumDevEnvSetup` 
 - `src/scripts/miner.sh`
 
+When miner will start it will ask you three options
+- Start miner : press 1 to start miner. It will print `null` on console which is its expected behaviour.
+- Stop miner : press 2 to stop miner. It returns boolean `true`.
+- Enter manual command : Anything - [1, 2]. This opens up console in which you can enter manual commands.
+
 ### License
 You can use this software for commercial as well as non-commercial purpose/purposes, the way you want and without conditions of any kind.
 
