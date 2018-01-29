@@ -11,7 +11,7 @@ This repository contains script which will download and install tools required t
 
 # Why this tool was created?
 
-I faced problem while setting up Ethereum Solidity development environment for dApp developement, then I wrote this automation tool which automates installing up all (geth, mist, Ethereum wallet ) developement dependencies in minutes. 
+I faced problems while setting up Ethereum Solidity development environment for dApp developement, then I wrote this automation tool which automates installing up all (geth, mist, Ethereum wallet ) developement dependencies in minutes. 
 
 # Tools installed
 - Geth
