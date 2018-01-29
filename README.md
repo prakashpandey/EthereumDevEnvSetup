@@ -3,11 +3,11 @@ This repository contains script which will download and install tools required t
 
 # You can use this tool for : 
 
-1. Automates #dev environment setup for #Ethereum #dApp 
-2. Create a private #network.
-3. Connect to global #Ethereum network
-4. Start #mining 
-5. Use it as a #Wallet. 
+1. Automates dev environment setup for Ethereum dApp developement
+2. Create a private Ethereum network.
+3. Connect to global Ethereum network
+4. Start mining 
+5. Use it as a wallet. 
 
 # Tools installed
 - Geth
