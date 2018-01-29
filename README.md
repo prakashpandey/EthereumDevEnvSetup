@@ -1,7 +1,7 @@
 # EthereumDevEnvSetup
 This repository contains script which will download and install tools required to setup up Ethereum solidity based dApp on your machine.
 
-#You can use this tool for : 
+# You can use this tool for : 
 
 1. Automates #dev environment setup for #Ethereum #dApp 
 2. Create a private #network.
